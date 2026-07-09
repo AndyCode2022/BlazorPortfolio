@@ -1,9 +1,12 @@
 /* CSS for Projects component */
 h3 {
-    color: red;
+    color: black;
+    font-family: 'Global Sans Serif';
+    font-size: 56px;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
 }
-
-section
 
 .container {
     display: flex;
@@ -17,14 +20,110 @@ section
         border-radius: 10px;
     }
 
+/* Desktop */
+
 .button {
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: black;
+    padding: 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 250px;
     cursor: pointer;
+}
+
+@media screen and (min-width: 1357px) {
+    .button {
+        border: none;
+        color: black;
+        padding: 25px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 100px;
+        cursor: pointer;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .button {
+        border: none;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 100px;
+        cursor: pointer;
+    }
+}
+
+/* iPad Mini */
+@media screen and (min-width: 768px) {
+    .button {
+        border: none;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 100px;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (min-width: 480px) {
+    .button {
+        border: none;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 10px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 380px) {
+    .button {
+        border: none;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .button {
+        border: none;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 5px;
+        cursor: pointer;
+    }
+}
+
+ Galaxy Z Fold 5
+@media screen and (min-width: 344px) {
+    .button {
+        border: none;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 5px;
+        cursor: pointer;
+    }
 }
