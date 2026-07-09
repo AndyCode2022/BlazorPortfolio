@@ -1,0 +1,30 @@
+/* CSS for Projects component */
+h3 {
+    color: red;
+}
+
+section
+
+.container {
+    display: flex;
+}
+
+    .container div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 24px;
+        border-radius: 10px;
+    }
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
