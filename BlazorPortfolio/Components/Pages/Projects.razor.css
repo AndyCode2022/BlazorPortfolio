@@ -21,7 +21,6 @@ h3 {
     }
 
 /* Desktop */
-
 .button {
     border: none;
     color: black;
@@ -33,6 +32,7 @@ h3 {
     cursor: pointer;
 }
 
+/* Other screen resolutions */
 @media screen and (min-width: 1357px) {
     .button {
         border: none;
@@ -114,7 +114,7 @@ h3 {
     }
 }
 
- Galaxy Z Fold 5
+/* Galaxy Z Fold 5*/
 @media screen and (min-width: 344px) {
     .button {
         border: none;
