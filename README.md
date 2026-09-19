@@ -1,3 +1,4 @@
 # BlazorPortfolio
 
-<img width="1908" height="676" alt="image" src="https://github.com/user-attachments/assets/ec0bc6d5-b2f0-419c-b31e-09bb427f5890" />
+<img width="1913" height="762" alt="image" src="https://github.com/user-attachments/assets/e9af5efd-2922-4012-88d5-10f538c76cbf" />
+
