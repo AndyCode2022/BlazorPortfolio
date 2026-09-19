@@ -23,3 +23,11 @@ h3 {
     font-size: 5rem;
     src: local('Open Sans'), local('OpenSans'), url('https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff2') format('woff2');
 }
+
+h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    src: local('Open Sans'), local('OpenSans'), url('https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff2') format('woff2');
+}
