@@ -1,19 +1,8 @@
-/* CSS for Skills component */
-
-h1 {
-    text-align: center;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 6rem;
-    src: local('Open Sans'), local('OpenSans'), url('https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff2') format('woff2');
-}
-
-p {
-    text-align: center;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3rem;
-    src: local('Open Sans'), local('OpenSans'), url('https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff2') format('woff2');
-}
+.skills-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; padding: 1rem 0 3rem; }
+.skill-group { min-height: 250px; padding: 1.5rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--surface); }
+.skill-index { color: var(--green); font-size: .75rem; font-weight: 800; letter-spacing: .1em; }
+.skill-group h2 { margin: 1.2rem 0 1rem; font-size: 1.35rem; }
+.skill-group ul { display: flex; flex-wrap: wrap; gap: .55rem; margin: 0; padding: 0; list-style: none; }
+.skill-group li { padding: .5rem .75rem; border: 1px solid var(--line); border-radius: 999px; color: #34443b; background: #f8faf6; font-size: .9rem; }
+@media (max-width: 800px) { .skills-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .skills-grid { grid-template-columns: 1fr; } .skill-group { min-height: auto; } }

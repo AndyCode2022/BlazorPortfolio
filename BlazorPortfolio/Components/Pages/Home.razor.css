@@ -1,33 +1,22 @@
-/* CSS for Home component */
-h1 {
-    text-align: center;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 6rem;
-    src: local('Open Sans'), local('OpenSans'), url('https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff2') format('woff2');
-}
-
-h2 {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 5rem;
-    src: local('Open Sans'), local('OpenSans'), url('https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff2') format('woff2');
-}
-
-h3 {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 5rem;
-    src: local('Open Sans'), local('OpenSans'), url('https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff2') format('woff2');
-}
-
-h4 {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 5rem;
-    src: local('Open Sans'), local('OpenSans'), url('https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff2') format('woff2');
-}
+.hero { position: relative; overflow: hidden; margin: 3.25rem 0 5rem; padding: clamp(2.5rem, 7vw, 6.5rem); border-radius: 1.5rem; color: #fff; background: radial-gradient(circle at 92% 8%, rgba(201,239,155,.2), transparent 25%), linear-gradient(135deg, #123f32, #176b50 68%, #277d5f); }
+.hero::after { content: ""; position: absolute; width: 18rem; height: 18rem; right: -6rem; bottom: -10rem; border: 1px solid rgba(255,255,255,.2); border-radius: 50%; box-shadow: 0 0 0 2rem rgba(255,255,255,.04), 0 0 0 4rem rgba(255,255,255,.03); }
+.hero .eyebrow { color: var(--lime); }
+.hero h1 { max-width: 850px; margin: 0; font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1.04; letter-spacing: -.055em; font-weight: 700; }
+.hero-copy { max-width: 660px; margin: 1.5rem 0 0; color: rgba(255,255,255,.83); font-size: clamp(1.05rem, 1.6vw, 1.25rem); line-height: 1.75; }
+.hero-actions { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; margin-top: 2rem; }
+.hero .button-primary { background: var(--lime); color: #173528; }
+.hero .button-primary:hover { background: #dcf8bd; }
+.hero .text-link { color: #fff; }
+.home-section { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: end; padding: 1rem 0 5.5rem; }
+.home-section h2, .section-heading h2 { max-width: 570px; margin: 0; font-size: clamp(1.9rem, 3.5vw, 3rem); line-height: 1.12; letter-spacing: -.04em; }
+.section-copy { max-width: 520px; margin: 0; color: var(--muted); font-size: 1.08rem; line-height: 1.8; }
+.featured-section { border-top: 1px solid var(--line); padding-top: 3rem; }
+.section-heading { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: 1.5rem; }
+.feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.feature-card { display: flex; min-height: 220px; flex-direction: column; align-items: flex-start; padding: 1.5rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--surface); text-decoration: none; transition: transform .2s, box-shadow .2s; }
+.feature-card:hover { transform: translateY(-4px); box-shadow: 0 14px 35px rgba(22,50,38,.08); }
+.feature-number { color: var(--green); font-size: .75rem; font-weight: 800; letter-spacing: .1em; }
+.feature-card h3 { margin: 1.2rem 0 .4rem; font-size: 1.35rem; }
+.feature-card p { margin: 0 0 1.5rem; color: var(--muted); line-height: 1.6; }
+.feature-card .card-link { margin-top: auto; }
+@media (max-width: 760px) { .hero { margin-top: 1.5rem; margin-bottom: 3.5rem; } .home-section { grid-template-columns: 1fr; gap: 1rem; padding-bottom: 3.5rem; } .feature-grid { grid-template-columns: 1fr; } .feature-card { min-height: 190px; } }
